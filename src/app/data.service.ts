@@ -19,4 +19,8 @@ export class DataService {
   getPosts() {
     return this.http.get('https://jsonplaceholder.typicode.com/posts')
   }
+
+  getWeather() {
+    return this.http.get('http://api.apixu.com/v1/forecast.json?key=567775c950ea449eb5f112558181812&q=lagos&days=5');
+  }
 }
