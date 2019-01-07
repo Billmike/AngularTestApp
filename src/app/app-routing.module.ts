@@ -4,6 +4,7 @@ import { UsersComponent } from './users/users.component';
 import { DetailsComponent } from './details/details.component';
 import { PostsComponent } from './posts/posts.component';
 import { WeatherComponent } from './weather/weather.component';
+import { FormComponent } from './form/form.component';
 
 const routes: Routes = [
   {
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path: 'weather',
     component: WeatherComponent
+  },
+  {
+    path: 'add',
+    component: FormComponent
   }
 ];
 
